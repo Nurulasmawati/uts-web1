@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holiday Celebration</title>
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: biru pink#2eace7#62d4f7;
+            color: pink#2eace7;
+        }
+
+        /* Header Section */
+        header {
+            background: #ffffff url('path/to/snowflakes-bg.jpg') no-repeat center center / cover;
+            color: rgb(0, 0, 0);
+            padding: 20px;
+            text-align: middle;
+        }
+
+        header .logo img {
+            width: 150px;
+            height: auto;
+            margin-bottom: 1px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 5px;
+        }
+
+        header p {
+            font-size: 1.2em;
+        }
+
+        /* Navigation */
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding: 50px 0;
+            background-color: #a0d7df;
+        }
+
+        nav a {
+            color: rgb(5, 5, 5);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Banner Section */
+        .banner {
+            text-align: center;
+            padding: 100px 50px;
+            background: url('path/to/holiday-banner.jpg') no-repeat center center / cover;
+            color: rgb(33, 90, 99);
+        }
+
+        .banner h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+
+        .banner p {
+            font-size: 1.1em;
+        }
+
+        /* Holiday Icons Section */
+        .holiday-icons {
+            display: flex;
+            justify-content: space-around;
+            padding: 50px;
+            background-color: #ffffff;
+        }
+
+        .holiday-icons div {
+            text-align: center;
+        }
+
+        .holiday-icons img {
+            width: 200px;
+            height: 150px;
+        }
+
+        .holiday-icons p {
+            margin-top: 10px;
+            font-size: 1em;
+        }
+
+        /* Contact Form Section */
+        .contact-section {
+            padding: 20px;
+            text-align: center;
+            background-color: #abeeff;
+        }
+
+        .contact-section h2 {
+            margin-bottom: 10px;
+            font-size: 2em;
+        }
+
+        .contact-form input, .contact-form textarea {
+            width: 80%;
+            max-width: 500px;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #72c6ff;
+            border-radius: 5px;
+        }
+
+        .contact-form input[type="submit"] {
+            width: auto;
+            background-color: #f8f8f8;
+            color: rgb(113, 187, 248);
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 10px 0;
+        }
+
+        footer .social-icons img {
+            width: 30px;
+            height: 30px;
+        }
+
+        footer p {
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <img src=" LOGO.jpg" alt=" LOGO.jpg"> <h1> 
+        <h1> ^YUK LIBURAN DI LOMBOK ^</h1>
+        <p> ^ Lombok menjadi tempat liburan yg banyak diminati karna memiliki berbagai keindahan pantai, alam, dan dilombok juga terdapat 
+            sirkuit INTERNASIONAL MANDALIKA ^</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#events">Events</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner Section -->
+    <div class="banner">
+        <img src=" IMG_2767.PNG" alt=" IMG_2767.PNG"> <img src="IMG_2766.JPG" alt="IMG_2766.JPG" >
+    </div>
+
+    <!-- Holiday Icons Section -->
+    <div class="holiday-icons">
+        <div>
+            <img src=" IMG_2759.JPG" alt="Gift Icon">
+            <p>GUNUNG RINJANI </p>
+            <P>KABUPATEN LOMBOK TIMUR </P>
+        </div>
+        <div>
+            <img src="IMG_2736.JPG" alt="Candle Icon">
+            <p>INTERNASIONAL SIRKUIT MANDALIKA</p>
+            <P> KUTA , PUJUT, KABUPATEN LOMBOK TENGAH</P>
+        </div>
+        <div>
+            <img src="IMG_2761.JPG" alt="  IMG_2761.JPG">
+            <p>NARMADA PARK</p>
+            <P>KABUPATEN LOMBOK BARAT</P>
+        </div>
+    </div>
+    <!-- Contact Section -->
+    <div class="contact-section" id="contact">
+        <h2>Get in Touch</h2>
+        <p>We'd love to hear from you. Send us a message below!</p>
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <input type="submit" value="Send Message">
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-icons">
+            <a href="#"><img src="fb.jpeg" alt="Facebook Icon"></a>
+            <a href="#"><img src="ig.jpeg" alt="Instagram Icon"></a>
+            <a href="#"><img src="twitt.jpeg" alt="Twitter Icon"></a>
+        </div>
+        <p>&copy; 2024 Holiday Celebration. All rights reserved.</p>
+    </footer>
+</body>
+</html>
